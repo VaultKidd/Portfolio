@@ -84,6 +84,11 @@ li{
     color: #6030b1;
 }
 
+.text--orange {
+    color: #f06449;
+    font-weight: bold;
+}
+
 section:nth-child(even) {
     background-color: #f8f8f8;
 }
@@ -413,6 +418,7 @@ footer{
 .footer__logo--img{
     width: 70px;
     height: 70px;
+    filter: invert();
 }
 
 .footer__social--link,
@@ -436,7 +442,7 @@ footer{
 }
 
 .footer__anchor:hover .footer__logo--popper{
-transform: translateX(30px);
+transform: translateX(50px);
 opacity: 1;
 }
 
